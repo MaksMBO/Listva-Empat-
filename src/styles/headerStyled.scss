@@ -1,0 +1,116 @@
+$header-padding-top: 0.625rem;
+$header-padding-right: 8.54%;
+$header-padding-bottom: 1.063rem;
+$header-padding-left: 8.54%;
+
+$header-background-color: rgba(30, 32, 37, 0.6);
+
+$header-font-size: 0.8125rem;
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: $header-padding-top $header-padding-right $header-padding-bottom
+    $header-padding-left;
+  background: $header-background-color;
+  box-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  z-index: 1000;
+
+  &__logo-container,
+  &__container,
+  &__contact,
+  &__nav-list,
+  &__currency,
+  &__navigation,
+  &__logo-text,
+  &__basket-link,
+  &__phone-container {
+    display: flex;
+  }
+
+  &__contact {
+    margin-bottom: 1.12rem;
+  }
+
+  &__container,
+  &__navigation {
+    justify-content: space-between;
+  }
+
+  &__nav-link {
+    margin-right: 1.875rem;
+  }
+
+  &__logo-text {
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 0.19rem;
+  }
+
+  &__currency,
+  &__navigation {
+    align-items: flex-end;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  &__subtitle,
+  &__currency-text {
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+
+  &__currency-text {
+    margin-right: 1.375rem;
+    cursor: pointer;
+  }
+
+  &__phone,
+  &__languages,
+  &__nav-list,
+  &__phone-text {
+    font-size: $header-font-size;
+    font-weight: 500;
+  }
+
+  &__phone {
+    margin-right: 0.5rem;
+  }
+
+  &__language-link {
+    &:first-child {
+      margin-right: 0.438rem;
+    }
+
+    &:last-child {
+      margin-left: 0.438rem;
+    }
+  }
+
+  &__basket-link {
+    display: flex;
+    justify-content: end;
+  }
+
+  &__phone-container,
+  &__contact {
+    align-items: end;
+  }
+
+  &__phone-container {
+    margin-right: 4.125rem;
+  }
+
+  &__container {
+    margin-bottom: 1.025rem;
+  }
+
+  &__logo {
+    margin-right: 1.875rem;
+  }
+}
