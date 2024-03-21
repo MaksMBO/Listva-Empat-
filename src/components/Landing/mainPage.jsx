@@ -6,6 +6,7 @@ export default function MainPage() {
         <p className="landing-main-page__title">Квіти для всіх</p>
         <p className="landing-main-page__subtitle">Отримуйте насолоду від магії миті: природа чекає лише на ваше відкриття!</p>
         <button className="landing-main-page__button">Вибрати букет</button>
+        <div className="landing-main-page__line"></div>
     </div>
   );
 }

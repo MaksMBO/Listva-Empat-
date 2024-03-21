@@ -1,0 +1,53 @@
+$header-padding-top: 7.25rem;
+$header-padding-right: 8.54%;
+$header-padding-bottom: 7.25rem;
+$header-padding-left: 8.54%;
+
+.catalog-main {
+  position: relative;
+  padding: $header-padding-top $header-padding-right $header-padding-bottom
+    $header-padding-left;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 1.875rem;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 3rem;
+  }
+
+  &__more {
+    font-weight: 400;
+    font-size: 1rem;
+    text-decoration-line: underline;
+    cursor: pointer;
+  }
+
+  &__items {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 1.875rem;
+    grid-auto-columns: calc((100% - 2 * 1.875rem) / 3);
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  &__items::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+
+  &__line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: rgba(30, 32, 37, 0.3);
+  }
+}
