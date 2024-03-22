@@ -58,7 +58,7 @@
 
   &__flash {
     position: absolute;
-    height: calc(75% - 0.1875rem);
+    height: calc(100% - 2 * 0.6875rem - 1.3rem - 3rem - 3.4rem);
     width: calc(100% - 0.1875rem);
     top: calc(0.1875rem / 2);
     left: calc(0.1875rem / 2);
@@ -69,5 +69,55 @@
     z-index: -1;
 
     box-shadow: 0px 0px 2.5rem 1.25rem rgba(255, 255, 255, 0.14);
+  }
+
+  @media (max-width: 1024px) {
+    &__img {
+      margin-bottom: 0.875rem;
+    }
+    &__title {
+      margin-bottom: 0.5rem;
+    }
+    &__price {
+      margin-bottom: 0.8125rem;
+    }
+    &__flash {
+      height: calc(100% - 2 * 0.6875rem - 1.3rem - 3rem - 1.3rem);
+    }
+    &__buttons {
+      grid-gap: 2rem;
+      grid-auto-columns: calc((100% - 2rem) / 2);
+    }
+    &__bout {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    &__basket {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  @media (max-width: 960px) {
+    &__buttons {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      gap: 0.5rem;
+    }
+
+    &__bout {
+      width: 100%;
+    }
+
+    &__basket {
+      width: 100%;
+    }
+
+    &__flash {
+      height: calc(100% - 5.35rem - 1.8125rem - 1.625rem - 1.1rem);
+    }
   }
 }

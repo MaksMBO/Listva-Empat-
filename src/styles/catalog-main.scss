@@ -41,6 +41,8 @@ $header-padding-left: 8.54%;
     overflow-x: auto;
     overflow-y: hidden;
     padding: 3.1rem 1.8rem 3.1rem 1.8rem;
+
+    border-radius: 3rem;
   }
 
   &__items::-webkit-scrollbar {
@@ -91,5 +93,36 @@ $header-padding-left: 8.54%;
     );
     right: 3.33%;
     cursor: pointer;
+  }
+
+  @media (max-width: 1250px) {
+    &__prev {
+      left: 2.33%;
+    }
+
+    &__next {
+      right: 2.33%;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    &__title {
+      font-size: 2rem;
+    }
+    &__more {
+      padding-bottom: 0.25rem;
+    }
+    &__prev {
+      display: none;
+    }
+
+    &__next {
+      display: none;
+    }
+
+    &__items {
+      grid-gap: 2rem;
+      grid-auto-columns: calc((100% - 2 * 2rem) / 3);
+    }
   }
 }
