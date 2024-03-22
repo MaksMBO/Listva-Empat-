@@ -4,6 +4,7 @@ import Advantages from "../../components/Landing/advantages";
 import CatalogMain from "../../components/Landing/catalogMain";
 import Act from "../../components/Landing/act";
 import Response from "../../components/Landing/response";
+import Footer from "../../components/Landing/footer";
 
 import "../../styles/landing.scss";
 
@@ -20,6 +21,7 @@ export default function Landing() {
         <CatalogMain />
         <Response />
         <Act />
+        <Footer />
       </div>
     </div>
   );

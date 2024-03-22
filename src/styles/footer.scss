@@ -1,0 +1,91 @@
+$header-padding-top: 3.125rem;
+$header-padding-right: 8.54%;
+$header-padding-bottom: 4.1875rem;
+$header-padding-left: 8.54%;
+
+.footer {
+  padding: $header-padding-top $header-padding-right $header-padding-bottom
+    $header-padding-left;
+  background-color: #18191d;
+
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 1.875rem;
+  }
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+    grid-column: span 4;
+  }
+
+  &__information {
+    display: flex;
+    flex-direction: column;
+    grid-column: span 3;
+  }
+
+  &__franchise {
+    display: flex;
+    flex-direction: column;
+    grid-column: span 3;
+  }
+
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    grid-column: span 2;
+  }
+
+  &__first-title-main {
+    margin-bottom: 0.75rem;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  &__second-title-main {
+    margin-bottom: 2.5rem;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  &__logo {
+    margin-bottom: 2rem;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 1.75rem;
+  }
+
+  &__subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__phone {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+  }
+
+  &__location {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 1.25rem;
+  }
+
+  &__pay > *:not(:last-child) {
+    margin-right: 2.4375rem;
+  }
+
+  &__social-media > *:not(:last-child) { 
+    margin-right: 1.5rem;
+  }
+}
