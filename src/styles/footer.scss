@@ -85,7 +85,78 @@ $header-padding-left: 8.54%;
     margin-right: 2.4375rem;
   }
 
-  &__social-media > *:not(:last-child) { 
+  &__social-media > *:not(:last-child) {
     margin-right: 1.5rem;
+  }
+  @media (max-width: 1024px) {
+    &__content {
+      display: flex;
+    }
+    &__first-title-main {
+      font-size: 15px;
+    }
+    &__second-title-main {
+      font-size: 15px;
+    }
+    &__subtitle {
+      font-size: 15px;
+    }
+    &__logo {
+      margin-bottom: 1.5rem;
+    }
+
+    &__title {
+      margin-bottom: 1.5rem;
+    }
+    &__main {
+      width: 25.23%;
+    }
+    &__pay {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__pay > *:not(:last-child) {
+      margin-right: 0;
+    }
+    &__location {
+      margin-bottom: 1rem;
+    }
+  }
+  @media (max-width: 960px) {
+    &__content {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1.875rem;
+    }
+    &__main {
+      display: flex;
+      flex-direction: column;
+      grid-column: span 1;
+      width: 100%;
+    }
+
+    &__information {
+      display: flex;
+      flex-direction: column;
+      grid-column: span 1;
+      margin-left: 30%;
+    }
+
+    &__franchise {
+      display: flex;
+      flex-direction: column;
+      grid-column: span 1;
+    }
+
+    &__contacts {
+      display: flex;
+      flex-direction: column;
+      grid-column: span 1;
+      margin-left: 30%;
+    }
+
+    &__pay {
+      width: 16rem;
+    }
   }
 }
