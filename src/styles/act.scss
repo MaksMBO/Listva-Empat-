@@ -28,9 +28,9 @@ $header-padding-top-bottom: 7.25rem;
 
   &__button {
     background: #df83ac;
-    border-radius: .625rem;
+    border-radius: 0.625rem;
     filter: drop-shadow(0px 0px 1.25rem #a47087);
-    padding: .9375rem 3.625rem;
+    padding: 0.9375rem 3.625rem;
     cursor: pointer;
   }
 
@@ -41,5 +41,17 @@ $header-padding-top-bottom: 7.25rem;
     width: 100%;
     height: 4px;
     background: rgba(30, 32, 37, 0.3);
+  }
+
+  @media (max-width: 1024px) {
+    &__title {
+      font-weight: 600;
+      font-size: 40px;
+    }
+
+    &__button {
+      font-weight: 500;
+      font-size: 20px;
+    }
   }
 }

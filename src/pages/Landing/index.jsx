@@ -11,9 +11,11 @@ import "../../styles/landing.scss";
 export default function Landing() {
   return (
     <div className="landing-container">
-      <div className="landing-container__main">
-        <Header />
-        <MainPage />
+      <div className="landing-container__cover">
+        <div className="landing-container__main">
+          <Header />
+          <MainPage />
+        </div>
       </div>
       <div className="landing-container__body">
         <div className="landing-container__blurry-background"></div>

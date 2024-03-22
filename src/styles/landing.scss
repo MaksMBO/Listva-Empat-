@@ -32,4 +32,12 @@
     filter: blur(60px);
     clip-path: inset(5% 5% 5% 5%);
   }
+
+  @media (max-width: 1024px) {
+    &__main {
+      height: 60vh;
+    }
+  }
 }
+
+
