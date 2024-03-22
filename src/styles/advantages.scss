@@ -6,9 +6,8 @@ $header-padding-left: 8.54%;
 .advantages {
   position: relative;
   padding: $header-padding-top $header-padding-right $header-padding-bottom
-  $header-padding-left;
+    $header-padding-left;
   &__about {
-    
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 1.875rem;
@@ -62,6 +61,8 @@ $header-padding-left: 8.54%;
   }
 
   &__point-img {
+    min-width: 3.5rem;
+    min-height: 3.5rem;
     margin-right: 2.875rem;
   }
 
@@ -72,5 +73,20 @@ $header-padding-left: 8.54%;
     width: 100%;
     height: 4px;
     background: rgba(30, 32, 37, 0.3);
+  }
+
+  @media (max-width: 1024px) {
+    &__points {
+      grid-column: span 5 / -1;
+    }
+
+    &__title {
+      font-size: 2rem;
+    }
+
+    &__subtitle-1,
+  &__subtitle-2 {
+    width: 100%;
+  }
   }
 }
