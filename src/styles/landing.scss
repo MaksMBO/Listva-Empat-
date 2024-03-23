@@ -31,6 +31,7 @@
     background-repeat: no-repeat;
     filter: blur(60px);
     clip-path: inset(5% 5% 5% 5%);
+    overflow: hidden;
   }
 
   @media (max-width: 1024px) {
@@ -42,6 +43,16 @@
   @media (max-width: 740px) {
     &__main {
       height: 50vh;
+    }
+  }
+
+  @media (max-width: 600px) {
+    &__blurry-background {
+      position: absolute;
+      top: -64%;
+      left: -50%;
+      width: 270%;
+      height: 200%;
     }
   }
 }

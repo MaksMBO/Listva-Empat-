@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import { useTranslation } from "react-i18next";
+
+import AvatarIMG from "../../assets/images/temp/avatar.jpg";
 
 import "../../styles/response.scss";
 import "../../styles/response-item.scss";
 
-import AvatarIMG from "../../assets/images/temp/avatar.jpg";
-
 function ResponseItem({ img, text, username }) {
-  const textWithLineBreaks = text.split('\n').map((line, index) => (
+  const textWithLineBreaks = text.split("\n").map((line, index) => (
     <React.Fragment key={index}>
       {line}
       <br />
@@ -20,6 +21,7 @@ function ResponseItem({ img, text, username }) {
         <img
           className="response-item__avatar"
           src={img}
+          draggable="false"
           alt="User avatar"
         />
       </div>
@@ -28,11 +30,18 @@ function ResponseItem({ img, text, username }) {
   );
 }
 
-export default function Response() {
+export default function Response({ setReviewRef }) {
+  const reviewRef = useRef(null);
+  useEffect(() => {
+    setReviewRef(reviewRef.current);
+  }, [setReviewRef]);
+
+  const { t } = useTranslation();
+
   return (
-    <div className="response">
+    <div className="response" ref={reviewRef}>
       <div className="response__content">
-        <div className="response__title">Відгуки</div>
+        <div className="response__title">{t("response.title")}</div>
         <div className="response__items">
           <ResponseItem
             img={AvatarIMG}

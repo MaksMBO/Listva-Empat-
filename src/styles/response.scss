@@ -3,9 +3,9 @@ $header-padding-right: 8.54%;
 $header-padding-bottom: 7.25rem;
 $header-padding-left: 8.54%;
 
-$header-padding-top-mobile: 35px;
+$header-padding-top-mobile: 2.1875rem;
 $header-padding-right-mobile: 5.33%;
-$header-padding-bottom-mobile: 35px;
+$header-padding-bottom-mobile: 2.1875rem;
 $header-padding-left-mobile: 5.33%;
 
 .response {
@@ -74,7 +74,7 @@ $header-padding-left-mobile: 5.33%;
   @media (max-width: 740px) {
     &__title {
       font-weight: 500;
-      font-size: 22px;
+      font-size: 1.375rem;
     }
 
     &__items {

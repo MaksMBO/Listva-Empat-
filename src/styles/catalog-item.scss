@@ -36,6 +36,17 @@
 
     font-weight: 400;
     font-size: 1rem;
+    transition: background-color 0.3s ease;
+
+    cursor: pointer;
+  }
+
+  &__bout:hover {
+    background: #d96591;
+  }
+
+  &__bout:active {
+    background: #c44f7c;
   }
 
   &__basket {
@@ -46,6 +57,17 @@
 
     font-weight: 400;
     font-size: 1rem;
+    transition: background 0.3s ease;
+
+    cursor: pointer;
+  }
+
+  &__basket:hover {
+    background: #d96591;
+  }
+
+  &__basket:active {
+    background: #c44f7c;
   }
 
   &__img {
@@ -80,9 +102,13 @@
     }
     &__price {
       margin-bottom: 0.8125rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      line-height: 23px;
     }
     &__flash {
-      height: calc(100% - 2 * 0.6875rem - 1.3rem - 3rem - 1.3rem);
+      height: calc(100% - 2 * 0.6875rem - 1.3rem - 3rem - 1.7rem);
     }
     &__buttons {
       grid-gap: 2rem;
@@ -110,14 +136,26 @@
 
     &__bout {
       width: 100%;
+      padding-right: 0.5rem;
+      padding-left: 0.5rem;
     }
 
     &__basket {
       width: 100%;
+      padding-right: 0.5rem;
+      padding-left: 0.5rem;
     }
 
     &__flash {
-      height: calc(100% - 5.35rem - 1.8125rem - 1.625rem - 1.1rem);
+      height: calc(100% - 5.35rem - 1.8125rem - 1.625rem - 1.3rem);
+    }
+  }
+
+  @media (max-width: 740px) {
+    &__flash {
+      height: calc(100% - 5.35rem - 1.8125rem - 1.625rem - 1.9rem);
     }
   }
 }
+
+

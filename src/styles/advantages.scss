@@ -3,9 +3,9 @@ $header-padding-right: 8.54%;
 $header-padding-bottom: 7.25rem;
 $header-padding-left: 8.54%;
 
-$header-padding-top-mobile: 35px;
+$header-padding-top-mobile: 2.1875rem;
 $header-padding-right-mobile: 5.33%;
-$header-padding-bottom-mobile: 35px;
+$header-padding-bottom-mobile: 2.1875rem;
 $header-padding-left-mobile: 5.33%;
 
 .advantages {
@@ -103,22 +103,22 @@ $header-padding-left-mobile: 5.33%;
 
     &__title {
       font-weight: 600;
-      font-size: 22px;
+      font-size: 1.375rem;
       margin-bottom: 1rem;
     }
     &__subtitle-1,
     &__subtitle-2 {
       font-weight: 500;
-      font-size: 16px;
+      font-size: 1rem;
     }
     &__text-point {
       span {
         font-weight: 500;
-        font-size: 14px;
+        font-size: 0.875rem;
       }
       span:first-child {
         font-weight: 600;
-        font-size: 22px;
+        font-size: 1.375rem;
       }
     }
     &__subtitle-1 {
@@ -126,14 +126,14 @@ $header-padding-left-mobile: 5.33%;
     }
     &__about {
       align-items: start;
-      gap: 40px;
+      gap: 2.5rem;
     }
     &__point-img {
-      min-width: 50px;
-      min-height: 50px;
-      max-width: 50px;
-      max-height: 50px;
-      margin-right: 40px;
+      min-width: 3.125rem;
+      min-height: 3.125rem;
+      max-width: 3.125rem;
+      max-height: 3.125rem;
+      margin-right: 2.5rem;
     }
   }
 }

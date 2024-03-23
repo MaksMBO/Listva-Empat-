@@ -1,10 +1,12 @@
+$header-padding-left-right: 8.54%;
 $header-padding-top-bottom: 7.25rem;
 
-$header-padding-top-bottom-mobile: 64px;
+$header-padding-left-right-mobile: 5.33%;
+$header-padding-top-bottom-mobile: 4rem;
 
 .act {
   position: relative;
-  padding: $header-padding-top-bottom 0;
+  padding: $header-padding-top-bottom $header-padding-left-right;
 
   &__content {
     display: flex;
@@ -34,6 +36,15 @@ $header-padding-top-bottom-mobile: 64px;
     filter: drop-shadow(0px 0px 1.25rem #a47087);
     padding: 0.9375rem 3.625rem;
     cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  &__button:hover {
+    background: #d96591;
+  }
+
+  &__button:active {
+    background: #c44f7c;
   }
 
   &__line {
@@ -48,37 +59,44 @@ $header-padding-top-bottom-mobile: 64px;
   @media (max-width: 1024px) {
     &__title {
       font-weight: 600;
-      font-size: 40px;
+      font-size: 2.5rem;
     }
 
     &__button {
       font-weight: 500;
-      font-size: 20px;
+      font-size: 1.25rem;
     }
   }
 
   @media (max-width: 740px) {
     &__title {
       font-weight: 600;
-      font-size: 24px;
+      font-size: 1.5rem;
       margin-bottom: 1rem;
     }
     &__subtitle {
       font-weight: 400;
-      font-size: 16px;
+      font-size: 1rem;
       margin-bottom: 1.5rem;
       width: 70%;
     }
     &__button {
       font-weight: 500;
-      font-size: 16px;
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 400px) {
+    &__title {
+      font-weight: 600;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
     }
   }
 }
 
 @media (max-width: 740px) {
   .act {
-    padding-top: $header-padding-top-bottom-mobile;
-    padding-bottom: $header-padding-top-bottom-mobile;
+    padding: $header-padding-top-bottom-mobile $header-padding-left-right-mobile;
   }
 }

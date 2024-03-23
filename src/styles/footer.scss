@@ -3,9 +3,9 @@ $header-padding-right: 8.54%;
 $header-padding-bottom: 4.1875rem;
 $header-padding-left: 8.54%;
 
-$header-padding-top-mobile: 35px;
+$header-padding-top-mobile: 2.1875rem;
 $header-padding-right-mobile: 5.33%;
-$header-padding-bottom-mobile: 35px;
+$header-padding-bottom-mobile: 2.1875rem;
 $header-padding-left-mobile: 5.33%;
 
 .footer {
@@ -46,12 +46,12 @@ $header-padding-left-mobile: 5.33%;
   &__first-title-main {
     margin-bottom: 0.75rem;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   &__second-title-main {
     margin-bottom: 2.5rem;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   &__logo {
@@ -60,13 +60,13 @@ $header-padding-left-mobile: 5.33%;
 
   &__title {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-bottom: 1.75rem;
   }
 
   &__subtitle {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     margin-bottom: 0.5rem;
 
     &:last-child {
@@ -76,13 +76,13 @@ $header-padding-left-mobile: 5.33%;
 
   &__phone {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     margin-bottom: 0.5rem;
   }
 
   &__location {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     margin-bottom: 1.25rem;
   }
 
@@ -90,21 +90,32 @@ $header-padding-left-mobile: 5.33%;
     margin-right: 2.4375rem;
   }
 
+  &__social-media a {
+    cursor: pointer;
+  }
+
   &__social-media > *:not(:last-child) {
     margin-right: 1.5rem;
+  }
+  @media (max-width: 1160px) {
+    &__phone {
+      font-weight: 400;
+      font-size: 0.75rem;
+      margin-bottom: 0.5rem;
+    }
   }
   @media (max-width: 1024px) {
     &__content {
       display: flex;
     }
     &__first-title-main {
-      font-size: 15px;
+      font-size: 0.9375rem;
     }
     &__second-title-main {
-      font-size: 15px;
+      font-size: 0.9375rem;
     }
     &__subtitle {
-      font-size: 15px;
+      font-size: 0.9375rem;
     }
     &__logo {
       margin-bottom: 1.5rem;
@@ -125,6 +136,11 @@ $header-padding-left-mobile: 5.33%;
     }
     &__location {
       margin-bottom: 1rem;
+    }
+    &__phone {
+      font-weight: 400;
+      font-size: 0.875rem;
+      margin-bottom: 0.5rem;
     }
   }
   @media (max-width: 960px) {
@@ -166,7 +182,7 @@ $header-padding-left-mobile: 5.33%;
   }
   @media (max-width: 640px) {
     &__content {
-      grid-gap: 31px;
+      grid-gap: 1.9375rem;
       row-gap: 0;
     }
     &__main {
@@ -184,12 +200,11 @@ $header-padding-left-mobile: 5.33%;
       margin-left: 0;
     }
     &__title {
-      font-size: 16px;
+      font-size: 1rem;
     }
     &__subtitle {
-      font-size: 12px;
+      font-size: 0.75rem;
     }
- 
 
     &__first-title-main {
       margin-bottom: 0.5rem;
@@ -207,7 +222,13 @@ $header-padding-left-mobile: 5.33%;
       margin-bottom: 1.5rem;
     }
     &__social-media > *:not(:last-child) {
-      margin-right: 52px;
+      margin-right: 3.25rem;
+    }
+  }
+
+  @media (max-width: 360px) {
+    &__pay {
+      width: 100%;
     }
   }
 }

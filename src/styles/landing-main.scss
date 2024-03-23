@@ -1,3 +1,7 @@
+$header-padding-left-right: 8.54%;
+
+$header-padding-left-right-mobile: 5.33%;
+
 .landing-main-page {
   display: flex;
   flex-direction: column;
@@ -5,11 +9,12 @@
   align-items: center;
   height: 100vh;
   position: relative;
+  padding: 0 $header-padding-left-right;
 
   &__title {
-    margin-top: 127.8px;
+    margin-top: 7.9875rem;
     font-weight: 500;
-    font-size: 96px;
+    font-size: 6rem;
     margin-bottom: 2.5rem;
     text-align: center;
   }
@@ -28,6 +33,15 @@
     filter: drop-shadow(0px 0px 1.25rem #a47087);
     padding: 0.75rem 1.25rem;
     font-weight: 500;
+    transition: background 0.3s ease;
+  }
+
+  &__button:hover {
+    background: #d96591;
+  }
+
+  &__button:active {
+    background: #c44f7c;
   }
 
   &__line {
@@ -41,15 +55,15 @@
 
   @media (max-width: 1024px) {
     &__title {
-      margin-top: 127.8px;
+      margin-top: 7.9875rem;
       font-weight: 500;
-      font-size: 96px;
+      font-size: 6rem;
       margin-bottom: 1rem;
       text-align: center;
     }
     &__subtitle {
       font-weight: 500;
-      font-size: 20px;
+      font-size: 1.25rem;
       max-width: 36rem;
       margin-bottom: 3rem;
     }
@@ -57,32 +71,32 @@
     &__button {
       border-radius: 0.625rem;
       padding: 0.9375rem 1.4375rem;
-      font-size: 18px;
+      font-size: 1.125rem;
     }
   }
 
-  @media (max-width: 860px) {
+  @media (max-width: 900px) {
     &__title {
-      font-size: 82px;
+      font-size: 5rem;
     }
   }
 
   @media (max-width: 740px) {
     &__title {
-      margin-top: 77.4px;
+      margin-top: 4.8375rem;
       font-weight: 600;
-      font-size: 32px;
+      font-size: 2rem;
       margin-bottom: 0.5rem;
     }
     &__subtitle {
       font-weight: 500;
-      font-size: 16px;
+      font-size: 1rem;
       width: 50%;
       margin-bottom: 1rem;
     }
     &__button {
       font-weight: 500;
-      font-size: 16px;
+      font-size: 1rem;
       padding: 0.9375rem 2rem;
     }
   }
@@ -109,5 +123,11 @@
 @media (max-width: 740px) {
   .landing-main-page {
     height: 50vh;
+  }
+}
+
+@media (max-width: 740px) {
+  .landing-main-page {
+    padding: 0 $header-padding-left-right-mobile;
   }
 }

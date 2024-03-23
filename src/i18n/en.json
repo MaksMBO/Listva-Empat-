@@ -1,0 +1,90 @@
+{
+  "landing": {
+    "logoSubtitle": {
+      "text": "Flower delivery service"
+    },
+    "navLinks": [
+      { "text": "Catalog", "icon": "CatalogImage", "to": "catalog" },
+      { "text": "Advantages", "icon": "AdvantagesImage", "to": "advantages" },
+      { "text": "Reviews", "icon": "ReviewImage", "to": "review" },
+      { "text": "Contacts", "icon": "ContacsImage", "to": "contacts" }
+    ],
+    "basket": "Basket"
+  },
+  "MainPage": {
+    "title": "Flowers for all",
+    "subtitle": "Experience the magic of the moment: nature awaits only your discovery!",
+    "button": "Choose a Bouquet"
+  },
+  "advantages": {
+    "points": [
+      {
+        "icon": "PersonImage",
+        "firstText": "15+",
+        "secondText": "years of business experience"
+      },
+      {
+        "icon": "BouquetImage",
+        "firstText": "26+",
+        "secondText": "years of experience in floristry"
+      },
+      {
+        "icon": "GeoImage",
+        "firstText": "1 km",
+        "secondText": "from the center of Lviv"
+      },
+      {
+        "icon": "DeliveryImage",
+        "firstText": "200 UAH",
+        "secondText": "delivery within Lviv"
+      }
+    ],
+    "title": {
+      "title": "Find the best flowers just for you",
+      "subtitle_1": "We are located in the heart of Lviv and have a well-established system for working with floristry. A large number of experts are proud to work with us.",
+      "subtitle_2": "It takes over 10,000+ hours to master any craft. We have invested over 100,000+ hours in creating floral businesses."
+    }
+  },
+  "mainCatalog": {
+    "title": "Catalog",
+    "more": "View more",
+    "about": "About",
+    "basket": "Add to cart"
+  },
+  "response": {
+    "title": "Reviews"
+  },
+  "act": {
+    "title": "Decided to buy a bouquet?",
+    "subtitle": "The best flowers in all of Lviv can be yours with just one click",
+    "button": "Catalog"
+  },
+  "footer": {
+    "main_title": "Flower Delivery Service",
+    "main_subtitle": "Delivering flowers nationwide",
+    "information": {
+      "title": "Information",
+      "links": [
+        "Charity",
+        "Vacancies",
+        "Payment and delivery",
+        "Questions and answers",
+        "About us",
+        "Articles and events"
+      ]
+    },
+    "franchise": {
+      "title": "Franchise",
+      "links": [
+        "Become a partner",
+        "About the franchise",
+        "Questions and answers"
+      ]
+    },
+    "contacts": {
+      "title": "Our contacts",
+      "phone": "+38 (068) 615 50 40",
+      "location": "Lviv, Kyryla and Methodia St, 1"
+    }
+  }
+}
