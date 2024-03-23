@@ -38,6 +38,10 @@
       height: 60vh;
     }
   }
+
+  @media (max-width: 740px) {
+    &__main {
+      height: 50vh;
+    }
+  }
 }
-
-

@@ -1,6 +1,7 @@
 import { ReactComponent as LogoImage } from "../../assets/images/header/Logo.svg";
 import { ReactComponent as BasketImage } from "../../assets/images/header/basket.svg";
 import { ReactComponent as PhoneImage } from "../../assets/images/header/phone.svg";
+import { ReactComponent as BurgerButtonImage } from "../../assets/images/header/burgerButton.svg";
 
 import "../../styles/headerStyled.scss";
 
@@ -65,6 +66,7 @@ export default function Header() {
           </a>
         </div>
       </div>
+      <BurgerButtonImage className="header__burger-button" />
     </header>
   );
 }

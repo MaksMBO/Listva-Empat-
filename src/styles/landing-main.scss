@@ -60,10 +60,54 @@
       font-size: 18px;
     }
   }
+
+  @media (max-width: 860px) {
+    &__title {
+      font-size: 82px;
+    }
+  }
+
+  @media (max-width: 740px) {
+    &__title {
+      margin-top: 77.4px;
+      font-weight: 600;
+      font-size: 32px;
+      margin-bottom: 0.5rem;
+    }
+    &__subtitle {
+      font-weight: 500;
+      font-size: 16px;
+      width: 50%;
+      margin-bottom: 1rem;
+    }
+    &__button {
+      font-weight: 500;
+      font-size: 16px;
+      padding: 0.9375rem 2rem;
+    }
+  }
+
+  @media (max-width: 620px) {
+    &__subtitle {
+      width: 70%;
+    }
+  }
+
+  @media (max-width: 400px) {
+    &__subtitle {
+      width: 80%;
+    }
+  }
 }
 
 @media (max-width: 1024px) {
   .landing-main-page {
     height: 60vh;
+  }
+}
+
+@media (max-width: 740px) {
+  .landing-main-page {
+    height: 50vh;
   }
 }
