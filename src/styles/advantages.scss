@@ -3,6 +3,11 @@ $header-padding-right: 8.54%;
 $header-padding-bottom: 7.25rem;
 $header-padding-left: 8.54%;
 
+$header-padding-top-mobile: 35px;
+$header-padding-right-mobile: 5.33%;
+$header-padding-bottom-mobile: 35px;
+$header-padding-left-mobile: 5.33%;
+
 .advantages {
   position: relative;
   padding: $header-padding-top $header-padding-right $header-padding-bottom
@@ -85,8 +90,57 @@ $header-padding-left: 8.54%;
     }
 
     &__subtitle-1,
-  &__subtitle-2 {
-    width: 100%;
+    &__subtitle-2 {
+      width: 100%;
+    }
   }
+
+  @media (max-width: 760px) {
+    &__about {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__title {
+      font-weight: 600;
+      font-size: 22px;
+      margin-bottom: 1rem;
+    }
+    &__subtitle-1,
+    &__subtitle-2 {
+      font-weight: 500;
+      font-size: 16px;
+    }
+    &__text-point {
+      span {
+        font-weight: 500;
+        font-size: 14px;
+      }
+      span:first-child {
+        font-weight: 600;
+        font-size: 22px;
+      }
+    }
+    &__subtitle-1 {
+      margin-bottom: 0.5rem;
+    }
+    &__about {
+      align-items: start;
+      gap: 40px;
+    }
+    &__point-img {
+      min-width: 50px;
+      min-height: 50px;
+      max-width: 50px;
+      max-height: 50px;
+      margin-right: 40px;
+    }
+  }
+}
+
+@media (max-width: 740px) {
+  .advantages {
+    padding: $header-padding-top-mobile $header-padding-right-mobile
+      $header-padding-bottom-mobile $header-padding-left-mobile;
   }
 }

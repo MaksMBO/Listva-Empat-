@@ -1,5 +1,7 @@
 $header-padding-top-bottom: 7.25rem;
 
+$header-padding-top-bottom-mobile: 64px;
+
 .act {
   position: relative;
   padding: $header-padding-top-bottom 0;
@@ -53,5 +55,30 @@ $header-padding-top-bottom: 7.25rem;
       font-weight: 500;
       font-size: 20px;
     }
+  }
+
+  @media (max-width: 740px) {
+    &__title {
+      font-weight: 600;
+      font-size: 24px;
+      margin-bottom: 1rem;
+    }
+    &__subtitle {
+      font-weight: 400;
+      font-size: 16px;
+      margin-bottom: 1.5rem;
+      width: 70%;
+    }
+    &__button {
+      font-weight: 500;
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 740px) {
+  .act {
+    padding-top: $header-padding-top-bottom-mobile;
+    padding-bottom: $header-padding-top-bottom-mobile;
   }
 }

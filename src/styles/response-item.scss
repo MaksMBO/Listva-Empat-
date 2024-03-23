@@ -51,6 +51,17 @@
       font-size: 1rem;
     }
   }
+
+  @media (max-width: 740px) {
+    &__text {
+      font-weight: 400;
+      font-size: 16px;
+    }
+    &__username {
+      font-weight: 500;
+      font-size: 16px;
+    }
+  }
 }
 
 @media (max-width: 960px) {

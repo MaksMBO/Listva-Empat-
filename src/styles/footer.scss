@@ -3,6 +3,11 @@ $header-padding-right: 8.54%;
 $header-padding-bottom: 4.1875rem;
 $header-padding-left: 8.54%;
 
+$header-padding-top-mobile: 35px;
+$header-padding-right-mobile: 5.33%;
+$header-padding-bottom-mobile: 35px;
+$header-padding-left-mobile: 5.33%;
+
 .footer {
   padding: $header-padding-top $header-padding-right $header-padding-bottom
     $header-padding-left;
@@ -158,5 +163,58 @@ $header-padding-left: 8.54%;
     &__pay {
       width: 16rem;
     }
+  }
+  @media (max-width: 640px) {
+    &__content {
+      grid-gap: 31px;
+      row-gap: 0;
+    }
+    &__main {
+      grid-column: span 2;
+    }
+    &__information {
+      grid-column: span 1;
+      margin-left: 0;
+    }
+    &__franchise {
+      grid-column: span 1;
+    }
+    &__contacts {
+      grid-column: span 2;
+      margin-left: 0;
+    }
+    &__title {
+      font-size: 16px;
+    }
+    &__subtitle {
+      font-size: 12px;
+    }
+ 
+
+    &__first-title-main {
+      margin-bottom: 0.5rem;
+    }
+    &__second-title-main {
+      margin-bottom: 1rem;
+    }
+    &__pay {
+      margin-bottom: 1.5rem;
+    }
+    &__title {
+      margin-bottom: 1rem;
+    }
+    &__information {
+      margin-bottom: 1.5rem;
+    }
+    &__social-media > *:not(:last-child) {
+      margin-right: 52px;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .footer {
+    padding: $header-padding-top-mobile $header-padding-right-mobile
+      $header-padding-bottom-mobile $header-padding-left-mobile;
   }
 }

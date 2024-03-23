@@ -3,6 +3,11 @@ $header-padding-right: 8.54%;
 $header-padding-bottom: 7.25rem;
 $header-padding-left: 8.54%;
 
+$header-padding-top-mobile: 35px;
+$header-padding-right-mobile: 5.33%;
+$header-padding-bottom-mobile: 35px;
+$header-padding-left-mobile: 5.33%;
+
 .response {
   position: relative;
   padding: $header-padding-top $header-padding-right $header-padding-bottom
@@ -65,4 +70,25 @@ $header-padding-left: 8.54%;
       display: none;
     }
   }
+
+  @media (max-width: 740px) {
+    &__title {
+      font-weight: 500;
+      font-size: 22px;
+    }
+
+    &__items {
+      grid-gap: 2.21875rem;
+      margin-bottom: 0;
+    }
+  }
 }
+
+@media (max-width: 740px) {
+  .response {
+    padding: $header-padding-top-mobile $header-padding-right-mobile
+      $header-padding-bottom-mobile $header-padding-left-mobile;
+
+  }
+}
+
