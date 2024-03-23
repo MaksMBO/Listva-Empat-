@@ -1,16 +1,42 @@
 {
   "files": {
-    "main.css": "/Listva-Empat-/static/css/main.f855e6bc.css",
-    "main.js": "/Listva-Empat-/static/js/main.755037e2.js",
-    "static/js/453.8ab44547.chunk.js": "/Listva-Empat-/static/js/453.8ab44547.chunk.js",
-    "static/media/logo.svg": "/Listva-Empat-/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/Listva-Empat-/static/css/main.e5ef9823.css",
+    "main.js": "/Listva-Empat-/static/js/main.002fd07f.js",
+    "static/css/529.11262e2f.chunk.css": "/Listva-Empat-/static/css/529.11262e2f.chunk.css",
+    "static/js/529.eaf553eb.chunk.js": "/Listva-Empat-/static/js/529.eaf553eb.chunk.js",
+    "static/media/main-page-backbround.jpg": "/Listva-Empat-/static/media/main-page-backbround.c0396c4ef0320e850efd.jpg",
+    "static/media/bouquet.jpg": "/Listva-Empat-/static/media/bouquet.72c3132675112059467c.jpg",
+    "static/media/bouquet2.jpg": "/Listva-Empat-/static/media/bouquet2.596851e9b882d1189331.jpg",
+    "static/media/bouquet.svg": "/Listva-Empat-/static/media/bouquet.605fce7a18e67befbfa98852a33d6c30.svg",
+    "static/media/delivery.svg": "/Listva-Empat-/static/media/delivery.7388c5d82739d3e3e6eef0b7b9bfb273.svg",
+    "static/media/person.svg": "/Listva-Empat-/static/media/person.66db152799c2fe9b8b9fbc0e4cb032d4.svg",
+    "static/media/geo.svg": "/Listva-Empat-/static/media/geo.c55f6b1a6fb84ebeb61a4f153c914b52.svg",
+    "static/media/Mastercard-logo.svg": "/Listva-Empat-/static/media/Mastercard-logo.6e0f440b508f729659d3eb26763ab12a.svg",
+    "static/media/PayPal.svg": "/Listva-Empat-/static/media/PayPal.604620a4f5cd51748821e618c8df0a78.svg",
+    "static/media/LystvaLogo.svg": "/Listva-Empat-/static/media/LystvaLogo.0ddb820b0d7f762e0527b0235fe44db3.svg",
+    "static/media/viber.svg": "/Listva-Empat-/static/media/viber.977ded90a646102c5e70512cfd0c3393.svg",
+    "static/media/Logo.svg": "/Listva-Empat-/static/media/Logo.3b3c8d8e4f22c77d703bf15870435ec8.svg",
+    "static/media/advantages.svg": "/Listva-Empat-/static/media/advantages.6a5e025a34eea3028ce5af9c869d24a6.svg",
+    "static/media/telegram.svg": "/Listva-Empat-/static/media/telegram.d3af401d799dc71751eaad6682e61435.svg",
+    "static/media/contact.svg": "/Listva-Empat-/static/media/contact.4ab29bbf5e72f25a6ff43cdca2632b2e.svg",
+    "static/media/basket.svg": "/Listva-Empat-/static/media/basket.afb002008908e04a6e6744e07241aa22.svg",
+    "static/media/review.svg": "/Listva-Empat-/static/media/review.c9fea4311d2f0302c3c28b2cabd2cfaa.svg",
+    "static/media/Visa_2021.svg": "/Listva-Empat-/static/media/Visa_2021.65c576bfc385eecb192b930a1a48d8e7.svg",
+    "static/media/messenger.svg": "/Listva-Empat-/static/media/messenger.67e0e0fb67122060c49edafc96635e55.svg",
+    "static/media/phone.svg": "/Listva-Empat-/static/media/phone.1ad4f1cb43c13a5b3eda2082410abb8e.svg",
     "index.html": "/Listva-Empat-/index.html",
-    "main.f855e6bc.css.map": "/Listva-Empat-/static/css/main.f855e6bc.css.map",
-    "main.755037e2.js.map": "/Listva-Empat-/static/js/main.755037e2.js.map",
-    "453.8ab44547.chunk.js.map": "/Listva-Empat-/static/js/453.8ab44547.chunk.js.map"
+    "static/media/catalog.svg": "/Listva-Empat-/static/media/catalog.a88319ea01b76c3e86a4edcf53c2d4d8.svg",
+    "static/media/catalog-page-prev.svg": "/Listva-Empat-/static/media/catalog-page-prev.df2f39aa2c2f1d6da886c36df0a9d4e7.svg",
+    "static/media/catalog-page-next.svg": "/Listva-Empat-/static/media/catalog-page-next.9a3a024ecdf375deb1981f65463fd13d.svg",
+    "static/media/burgerButton.svg": "/Listva-Empat-/static/media/burgerButton.dc49d9270f88ec123675a06a4606b6ff.svg",
+    "static/media/close.svg": "/Listva-Empat-/static/media/close.84eccaebec0f6cf02d8478bedde56268.svg",
+    "main.e5ef9823.css.map": "/Listva-Empat-/static/css/main.e5ef9823.css.map",
+    "main.002fd07f.js.map": "/Listva-Empat-/static/js/main.002fd07f.js.map",
+    "529.11262e2f.chunk.css.map": "/Listva-Empat-/static/css/529.11262e2f.chunk.css.map",
+    "529.eaf553eb.chunk.js.map": "/Listva-Empat-/static/js/529.eaf553eb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.755037e2.js"
+    "static/css/main.e5ef9823.css",
+    "static/js/main.002fd07f.js"
   ]
 }
