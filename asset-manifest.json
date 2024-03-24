@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Listva-Empat-/static/css/main.e5ef9823.css",
-    "main.js": "/Listva-Empat-/static/js/main.002fd07f.js",
-    "static/css/529.11262e2f.chunk.css": "/Listva-Empat-/static/css/529.11262e2f.chunk.css",
+    "main.js": "/Listva-Empat-/static/js/main.93dacbcb.js",
+    "static/css/529.7214d266.chunk.css": "/Listva-Empat-/static/css/529.7214d266.chunk.css",
     "static/js/529.eaf553eb.chunk.js": "/Listva-Empat-/static/js/529.eaf553eb.chunk.js",
     "static/media/main-page-backbround.jpg": "/Listva-Empat-/static/media/main-page-backbround.c0396c4ef0320e850efd.jpg",
     "static/media/bouquet.jpg": "/Listva-Empat-/static/media/bouquet.72c3132675112059467c.jpg",
@@ -31,12 +31,12 @@
     "static/media/burgerButton.svg": "/Listva-Empat-/static/media/burgerButton.dc49d9270f88ec123675a06a4606b6ff.svg",
     "static/media/close.svg": "/Listva-Empat-/static/media/close.84eccaebec0f6cf02d8478bedde56268.svg",
     "main.e5ef9823.css.map": "/Listva-Empat-/static/css/main.e5ef9823.css.map",
-    "main.002fd07f.js.map": "/Listva-Empat-/static/js/main.002fd07f.js.map",
-    "529.11262e2f.chunk.css.map": "/Listva-Empat-/static/css/529.11262e2f.chunk.css.map",
+    "main.93dacbcb.js.map": "/Listva-Empat-/static/js/main.93dacbcb.js.map",
+    "529.7214d266.chunk.css.map": "/Listva-Empat-/static/css/529.7214d266.chunk.css.map",
     "529.eaf553eb.chunk.js.map": "/Listva-Empat-/static/js/529.eaf553eb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5ef9823.css",
-    "static/js/main.002fd07f.js"
+    "static/js/main.93dacbcb.js"
   ]
 }
