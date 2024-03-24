@@ -131,3 +131,28 @@ $header-padding-left-right-mobile: 5.33%;
     padding: 0 $header-padding-left-right-mobile;
   }
 }
+
+@media (max-width: 1024px) {
+  @media (max-height: 550px) {
+    .landing-main-page {
+      height: 100vh;
+      &__title {
+        margin-top: 4.8375rem;
+        font-weight: 600;
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+      }
+      &__subtitle {
+        font-weight: 500;
+        font-size: 1rem;
+        width: 50%;
+        margin-bottom: 1rem;
+      }
+      &__button {
+        font-weight: 500;
+        font-size: 1rem;
+        padding: 0.9375rem 2rem;
+      }
+    }
+  }
+}

@@ -56,3 +56,13 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  @media (max-height: 550px) {
+    .landing-container {
+      &__main {
+        height: 100vh;
+      }
+    }
+  }
+}
