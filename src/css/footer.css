@@ -1,0 +1,151 @@
+.footer {
+  padding: 3.125rem 8.54% 4.1875rem 8.54%;
+  background-color: #18191d; }
+  .footer__content {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 1.875rem; }
+  .footer__main {
+    display: flex;
+    flex-direction: column;
+    grid-column: span 4; }
+  .footer__information {
+    display: flex;
+    flex-direction: column;
+    grid-column: span 3; }
+  .footer__franchise {
+    display: flex;
+    flex-direction: column;
+    grid-column: span 3; }
+  .footer__contacts {
+    display: flex;
+    flex-direction: column;
+    grid-column: span 2; }
+  .footer__first-title-main {
+    margin-bottom: 0.75rem;
+    font-weight: 400;
+    font-size: 0.875rem; }
+  .footer__second-title-main {
+    margin-bottom: 2.5rem;
+    font-weight: 400;
+    font-size: 0.875rem; }
+  .footer__logo {
+    margin-bottom: 2rem; }
+  .footer__title {
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin-bottom: 1.75rem; }
+  .footer__subtitle {
+    font-weight: 400;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem; }
+    .footer__subtitle:last-child {
+      margin-bottom: 0; }
+  .footer__phone {
+    font-weight: 400;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem; }
+  .footer__location {
+    font-weight: 400;
+    font-size: 0.875rem;
+    margin-bottom: 1.25rem; }
+  .footer__pay > *:not(:last-child) {
+    margin-right: 2.4375rem; }
+  .footer__social-media a {
+    cursor: pointer; }
+  .footer__social-media > *:not(:last-child) {
+    margin-right: 1.5rem; }
+  @media (max-width: 1160px) {
+    .footer__phone {
+      font-weight: 400;
+      font-size: 0.75rem;
+      margin-bottom: 0.5rem; } }
+  @media (max-width: 1024px) {
+    .footer__content {
+      display: flex; }
+    .footer__first-title-main {
+      font-size: 0.9375rem; }
+    .footer__second-title-main {
+      font-size: 0.9375rem; }
+    .footer__subtitle {
+      font-size: 0.9375rem; }
+    .footer__logo {
+      margin-bottom: 1.5rem; }
+    .footer__title {
+      margin-bottom: 1.5rem; }
+    .footer__main {
+      width: 25.23%; }
+    .footer__pay {
+      display: flex;
+      justify-content: space-between; }
+    .footer__pay > *:not(:last-child) {
+      margin-right: 0; }
+    .footer__location {
+      margin-bottom: 1rem; }
+    .footer__phone {
+      font-weight: 400;
+      font-size: 0.875rem;
+      margin-bottom: 0.5rem; } }
+  @media (max-width: 960px) {
+    .footer__content {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1.875rem; }
+    .footer__main {
+      display: flex;
+      flex-direction: column;
+      grid-column: span 1;
+      width: 100%; }
+    .footer__information {
+      display: flex;
+      flex-direction: column;
+      grid-column: span 1;
+      margin-left: 30%; }
+    .footer__franchise {
+      display: flex;
+      flex-direction: column;
+      grid-column: span 1; }
+    .footer__contacts {
+      display: flex;
+      flex-direction: column;
+      grid-column: span 1;
+      margin-left: 30%; }
+    .footer__pay {
+      width: 16rem; } }
+  @media (max-width: 640px) {
+    .footer__content {
+      grid-gap: 1.9375rem;
+      row-gap: 0; }
+    .footer__main {
+      grid-column: span 2; }
+    .footer__information {
+      grid-column: span 1;
+      margin-left: 0; }
+    .footer__franchise {
+      grid-column: span 1; }
+    .footer__contacts {
+      grid-column: span 2;
+      margin-left: 0; }
+    .footer__title {
+      font-size: 1rem; }
+    .footer__subtitle {
+      font-size: 0.75rem; }
+    .footer__first-title-main {
+      margin-bottom: 0.5rem; }
+    .footer__second-title-main {
+      margin-bottom: 1rem; }
+    .footer__pay {
+      margin-bottom: 1.5rem; }
+    .footer__title {
+      margin-bottom: 1rem; }
+    .footer__information {
+      margin-bottom: 1.5rem; }
+    .footer__social-media > *:not(:last-child) {
+      margin-right: 3.25rem; } }
+  @media (max-width: 360px) {
+    .footer__pay {
+      width: 100%; } }
+
+@media (max-width: 640px) {
+  .footer {
+    padding: 2.1875rem 5.33% 2.1875rem 5.33%; } }

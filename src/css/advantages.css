@@ -1,0 +1,87 @@
+.advantages {
+  position: relative;
+  padding: 7.25rem 8.54% 7.25rem 8.54%; }
+  .advantages__about {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 1.875rem; }
+  .advantages__text {
+    grid-column: span 6; }
+  .advantages__points {
+    grid-column: span 4 / -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .advantages__title {
+    font-weight: 500;
+    font-size: 3rem;
+    margin-bottom: 1rem; }
+  .advantages__subtitle-1, .advantages__subtitle-2 {
+    font-weight: 500;
+    font-size: 1rem;
+    width: 80.333%; }
+  .advantages__subtitle-1 {
+    margin-bottom: 0.5rem; }
+  .advantages__point {
+    display: flex;
+    margin-bottom: 1.75rem; }
+  .advantages__text-point {
+    display: flex;
+    flex-direction: column;
+    justify-content: start; }
+    .advantages__text-point span {
+      font-weight: 500;
+      font-size: 0.875rem; }
+    .advantages__text-point span:first-child {
+      font-size: 2rem;
+      font-weight: 500; }
+  .advantages__point-img {
+    min-width: 3.5rem;
+    min-height: 3.5rem;
+    margin-right: 2.875rem; }
+  .advantages__line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: rgba(30, 32, 37, 0.3); }
+  @media (max-width: 1024px) {
+    .advantages__points {
+      grid-column: span 5 / -1; }
+    .advantages__title {
+      font-size: 2rem; }
+    .advantages__subtitle-1, .advantages__subtitle-2 {
+      width: 100%; } }
+  @media (max-width: 760px) {
+    .advantages__about {
+      display: flex;
+      flex-direction: column; }
+    .advantages__title {
+      font-weight: 600;
+      font-size: 1.375rem;
+      margin-bottom: 1rem; }
+    .advantages__subtitle-1, .advantages__subtitle-2 {
+      font-weight: 500;
+      font-size: 1rem; }
+    .advantages__text-point span {
+      font-weight: 500;
+      font-size: 0.875rem; }
+    .advantages__text-point span:first-child {
+      font-weight: 600;
+      font-size: 1.375rem; }
+    .advantages__subtitle-1 {
+      margin-bottom: 0.5rem; }
+    .advantages__about {
+      align-items: start;
+      gap: 2.5rem; }
+    .advantages__point-img {
+      min-width: 3.125rem;
+      min-height: 3.125rem;
+      max-width: 3.125rem;
+      max-height: 3.125rem;
+      margin-right: 2.5rem; } }
+
+@media (max-width: 740px) {
+  .advantages {
+    padding: 2.1875rem 5.33% 2.1875rem 5.33%; } }
