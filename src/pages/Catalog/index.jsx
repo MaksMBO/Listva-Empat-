@@ -1,7 +1,9 @@
+import "../../styles/catalog.scss";
+
 export default function Catalog() {
-    return (
-      <>
-        aboba
-      </>
-    );
-  }
+  return (
+    <>
+      
+    </>
+  );
+}

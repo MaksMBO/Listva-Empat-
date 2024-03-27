@@ -6,7 +6,6 @@ $header-padding-left-right: 8.54%;
   &__content {
     padding: 2rem $header-padding-left-right;
     margin-top: 7.9875rem;
-
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 1.875rem;

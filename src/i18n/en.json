@@ -102,5 +102,9 @@
     "title": "Order feedback!",
     "subtitle": "Enter your phone number and we will call you back within 10 minutes.",
     "submit-button": "Order a call"
+  },
+  "catalog-main": {
+    "title": "Bouquets for any occasion",
+    "subtitle": "Choose the perfect bouquet, and we will promptly deliver it directly to your doorstep."
   }
 }

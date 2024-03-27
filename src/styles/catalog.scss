@@ -1,69 +1,37 @@
 .landing-container {
+  overflow: hidden;
+  &__main {
+    background-image: url("../assets/images/catalog/catalog-background.webp");
+    background-position: 0 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+  }
+
+  &__body {
+    position: relative;
+  }
+
+  &__blurry-background {
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    width: 120%;
+    height: 120%;
+    z-index: -1;
+    background: linear-gradient(
+        243.16deg,
+        rgba(189, 79, 191, 0.032) 0.41%,
+        rgba(63, 44, 63, 0.0305) 100%
+      ),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)),
+      url("../assets/images/catalog/catalog-background.webp");
+    background-size: cover;
+    background-size: 409%;
+    background-position: 45% 80%;
+    background-repeat: no-repeat;
+    filter: blur(60px);
+    clip-path: inset(5% 5% 5% 5%);
     overflow: hidden;
-    &__main {
-      background-image: url("../assets/images/landig/main-page-backbround.webp");
-      background-size: cover;
-      background-position: center;
-      height: 100vh;
-    }
-  
-    &__body {
-      position: relative;
-    }
-  
-    &__blurry-background {
-      position: absolute;
-      top: -10%;
-      left: -10%;
-      width: 120%;
-      height: 120%;
-      z-index: -1;
-      background: linear-gradient(
-          243.16deg,
-          rgba(189, 79, 191, 0.032) 0.41%,
-          rgba(63, 44, 63, 0.0305) 100%
-        ),
-        linear-gradient(0deg, rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)),
-        url("../assets/images/landig/main-page-backbround.webp");
-      background-size: cover;
-      background-size: 619%;
-      background-position: calc(58.2% + 5%) calc(49.52% + 5%);
-      background-repeat: no-repeat;
-      filter: blur(60px);
-      clip-path: inset(5% 5% 5% 5%);
-      overflow: hidden;
-    }
-  
-    @media (max-width: 1024px) {
-      &__main {
-        height: 60vh;
-      }
-    }
-  
-    @media (max-width: 740px) {
-      &__main {
-        height: 50vh;
-      }
-    }
-  
-    @media (max-width: 600px) {
-      &__blurry-background {
-        position: absolute;
-        top: -64%;
-        left: -50%;
-        width: 270%;
-        height: 200%;
-      }
-    }
   }
-  
-  @media (max-width: 1024px) {
-    @media (max-height: 550px) {
-      .landing-container {
-        &__main {
-          height: 100vh;
-        }
-      }
-    }
-  }
-  
+}
