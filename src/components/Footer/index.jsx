@@ -61,7 +61,7 @@ export default function Footer({ setContactsRef }) {
           ></p>
 
           <div className="footer__social-media">
-            <a>
+            <a href="https://youtube.com">
               <TelegramIMG />
             </a>
             <a>

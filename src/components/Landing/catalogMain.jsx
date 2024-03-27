@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
 
-import BouquetIMG from "../../assets/images/temp/bouquet.jpg";
-import Bouquet2IMG from "../../assets/images/temp/bouquet2.jpg";
-import Bouquet3IMG from "../../assets/images/temp/bouquet3.jpg";
+import BouquetIMG from "../../assets/images/temp/bouquet.webp";
+import Bouquet2IMG from "../../assets/images/temp/bouquet2.webp";
+import Bouquet3IMG from "../../assets/images/temp/bouquet3.webp";
 import { ReactComponent as PrevIMG } from "../../assets/images/landig/catalog-page-prev.svg";
 import { ReactComponent as NextIMG } from "../../assets/images/landig/catalog-page-next.svg";
 
@@ -101,7 +101,7 @@ function CatalogItem({ img, title, price }) {
   return (
     <div className="catalog-item">
       <div className="catalog-item__flash"></div>
-      <img src={img} draggable="false" className="catalog-item__img" />
+      <img loading="lazy" src={img} draggable="false" className="catalog-item__img" />
       <span className="catalog-item__title">{title}</span>
       <span className="catalog-item__price">{price}</span>
       <div className="catalog-item__buttons">

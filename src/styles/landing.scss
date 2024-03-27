@@ -1,7 +1,7 @@
 .landing-container {
   overflow: hidden;
   &__main {
-    background-image: url("../assets/images/landig/main-page-backbround.jpg");
+    background-image: url("../assets/images/landig/main-page-backbround.webp");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -24,7 +24,7 @@
         rgba(63, 44, 63, 0.0305) 100%
       ),
       linear-gradient(0deg, rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)),
-      url("../assets/images/landig/main-page-backbround.jpg");
+      url("../assets/images/landig/main-page-backbround.webp");
     background-size: cover;
     background-size: 619%;
     background-position: calc(58.2% + 5%) calc(49.52% + 5%);

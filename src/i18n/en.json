@@ -86,5 +86,21 @@
       "phone": "+38 (068) 615 50 40",
       "location": "Lviv, Kyryla and Methodia St, 1"
     }
+  },
+  "aboutBouquet": {
+    "info": "The photo shows the standard version",
+    "size": "Choose the size of your bouquet",
+    "reduced": "Reduced",
+    "standard": "Standard",
+    "deluxe": "Deluxe",
+    "toBasket": "To basket"
+  },
+  "infoBouquet": {
+    "title": "About the bouquet:"
+  },
+  "feedback": {
+    "title": "Order feedback!",
+    "subtitle": "Enter your phone number and we will call you back within 10 minutes.",
+    "submit-button": "Order a call"
   }
 }
