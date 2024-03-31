@@ -16,7 +16,7 @@ export default function RoutApp() {
       <Provider store={store}>
         <Suspense fallback={<PageLoader />}>
           <Routes>
-            <Route path="*" element={<Layout />}>
+            <Route path="Listva-Empat-/" element={<Layout />}>
               <Route index element={<Landing />} />
               <Route path="catalog/" element={<Catalog />} />
               <Route path="catalog/:id/" element={<AboutCatalogPage />} />
