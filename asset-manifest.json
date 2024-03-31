@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Listva-Empat-/static/css/main.47f8c673.css",
-    "main.js": "/Listva-Empat-/static/js/main.377ecd87.js",
+    "main.js": "/Listva-Empat-/static/js/main.fc777c2d.js",
     "static/css/543.13b5439a.chunk.css": "/Listva-Empat-/static/css/543.13b5439a.chunk.css",
     "static/js/543.6c6c7201.chunk.js": "/Listva-Empat-/static/js/543.6c6c7201.chunk.js",
     "static/css/645.972b6d45.chunk.css": "/Listva-Empat-/static/css/645.972b6d45.chunk.css",
@@ -44,7 +44,7 @@
     "static/media/close.svg": "/Listva-Empat-/static/media/close.84eccaebec0f6cf02d8478bedde56268.svg",
     "static/media/minus.svg": "/Listva-Empat-/static/media/minus.989359d948b4eb846f4f51a487227df9.svg",
     "main.47f8c673.css.map": "/Listva-Empat-/static/css/main.47f8c673.css.map",
-    "main.377ecd87.js.map": "/Listva-Empat-/static/js/main.377ecd87.js.map",
+    "main.fc777c2d.js.map": "/Listva-Empat-/static/js/main.fc777c2d.js.map",
     "543.13b5439a.chunk.css.map": "/Listva-Empat-/static/css/543.13b5439a.chunk.css.map",
     "543.6c6c7201.chunk.js.map": "/Listva-Empat-/static/js/543.6c6c7201.chunk.js.map",
     "645.972b6d45.chunk.css.map": "/Listva-Empat-/static/css/645.972b6d45.chunk.css.map",
@@ -56,6 +56,6 @@
   },
   "entrypoints": [
     "static/css/main.47f8c673.css",
-    "static/js/main.377ecd87.js"
+    "static/js/main.fc777c2d.js"
   ]
 }
