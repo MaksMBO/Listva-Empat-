@@ -1,14 +1,14 @@
 import React, { Suspense, lazy } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Provider } from "react-redux";
-import store from "./store";
-import PageLoader from "./components/PageLoader";
-import "./utils/i18n";
-import Layout from "./components/Layout";
+import store from "store";
+import PageLoader from "components/PageLoader";
+import "utils/i18n";
+import Layout from "components/Layout";
 
-const Landing = lazy(() => import("./pages/Landing"));
-const Catalog = lazy(() => import("./pages/Catalog"));
-const AboutCatalogPage = lazy(() => import("./pages/About"));
+const Landing = lazy(() => import("pages/Landing"));
+const Catalog = lazy(() => import("pages/Catalog"));
+const AboutCatalogPage = lazy(() => import("pages/About"));
 
 export default function RoutApp() {
   return (
@@ -16,7 +16,7 @@ export default function RoutApp() {
       <Provider store={store}>
         <Suspense fallback={<PageLoader />}>
           <Routes>
-            <Route path="/" element={<Layout />}>
+            <Route path="*" element={<Layout />}>
               <Route index element={<Landing />} />
               <Route path="catalog/" element={<Catalog />} />
               <Route path="catalog/:id/" element={<AboutCatalogPage />} />

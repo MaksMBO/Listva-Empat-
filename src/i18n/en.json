@@ -106,5 +106,22 @@
   "catalog-main": {
     "title": "Bouquets for any occasion",
     "subtitle": "Choose the perfect bouquet, and we will promptly deliver it directly to your doorstep."
+  },
+  "order-catalog": {
+    "name": "Your name",
+    "email": "Your email",
+    "wish": "Your wishes",
+    "submit-button": "Make an order",
+    "title": "Didn't find a suitable bouquet that could express your feelings?",
+    "subtitle": "Leave feedback with your wishes and our colleague will contact you shortly to solve this problem"
+  },
+  "filter": {
+    "sort": "Sort",
+    "alphabetical": "Alphabetical",
+    "price_asc": "Price (ascending)",
+    "price_desc": "Price (descending)",
+    "search": "Search",
+    "price": "Price",
+    "no_goods": "No goods found"
   }
 }

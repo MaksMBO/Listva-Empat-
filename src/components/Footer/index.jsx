@@ -1,15 +1,15 @@
 import React, { useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 
-import { ReactComponent as LystvaLogoIMG } from "../../assets/images/footer/LystvaLogo.svg";
-import { ReactComponent as PayPalIMG } from "../../assets/images/footer/PayPal.svg";
-import { ReactComponent as VisaIMG } from "../../assets/images/footer/Visa_2021.svg";
-import { ReactComponent as MastercardIMG } from "../../assets/images/footer/Mastercard-logo.svg";
-import { ReactComponent as TelegramIMG } from "../../assets/images/footer/telegram.svg";
-import { ReactComponent as MessengerIMG } from "../../assets/images/footer/messenger.svg";
-import { ReactComponent as ViberIMG } from "../../assets/images/footer/viber.svg";
+import { ReactComponent as LystvaLogoIMG } from "assets/images/footer/LystvaLogo.svg";
+import { ReactComponent as PayPalIMG } from "assets/images/footer/PayPal.svg";
+import { ReactComponent as VisaIMG } from "assets/images/footer/Visa_2021.svg";
+import { ReactComponent as MastercardIMG } from "assets/images/footer/Mastercard-logo.svg";
+import { ReactComponent as TelegramIMG } from "assets/images/footer/telegram.svg";
+import { ReactComponent as MessengerIMG } from "assets/images/footer/messenger.svg";
+import { ReactComponent as ViberIMG } from "assets/images/footer/viber.svg";
 
-import "../../styles/footer.scss";
+import "components/Footer/footer.scss";
 
 export default function Footer({ setContactsRef }) {
   const contactsRef = useRef(null);
@@ -54,22 +54,25 @@ export default function Footer({ setContactsRef }) {
         </div>
         <div className="footer__contacts">
           <p className="footer__title">{t("footer.contacts.title")}</p>
-          <p className="footer__phone">{t("footer.contacts.phone")}</p>
-          <p
+          <a href="tel:068 999 99 99" className="footer__phone">
+            {t("footer.contacts.phone")}
+          </a>
+          <button
+            style={{ cursor: "pointer" }}
             className="footer__location"
             dangerouslySetInnerHTML={{ __html: t("footer.contacts.location") }}
-          ></p>
+          ></button>
 
           <div className="footer__social-media">
-            <a href="https://youtube.com">
+            <button>
               <TelegramIMG />
-            </a>
-            <a>
+            </button>
+            <button>
               <MessengerIMG />
-            </a>
-            <a>
+            </button>
+            <button>
               <ViberIMG />
-            </a>
+            </button>
           </div>
         </div>
       </div>

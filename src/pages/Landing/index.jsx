@@ -1,10 +1,11 @@
-import Advantages from "../../components/Landing/advantages";
-import CatalogMain from "../../components/Landing/catalogMain";
-import Act from "../../components/Landing/act";
-import Response from "../../components/Landing/response";
-
-import "../../styles/landing.scss";
 import { useRef } from "react";
+
+import Advantages from "components/Landing/Advantages";
+import CatalogMain from "components/Landing/CatalogMain";
+import Act from "components/Landing/Act";
+import Response from "components/Landing/Response";
+
+import "pages/Landing/landing.scss";
 
 export default function Landing() {
   const catalogRef = useRef(null);

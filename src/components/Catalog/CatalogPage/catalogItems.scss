@@ -1,0 +1,100 @@
+$header-padding-left-right-mobile: 5.33%;
+
+.catalog-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.875rem;
+
+  &__item {
+    grid-column: span 1;
+  }
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  padding: 0 8.54% 0 8.54%;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+
+@media (max-width: 880px) {
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .filters1 {
+    order: 3;
+    flex: 0 0 30%;
+    margin-left: 0 !important;
+  }
+  .filters2 {
+    order: 1;
+    flex: 0 0 100%;
+
+    input {
+      border: 0 !important;
+    }
+  }
+
+  .filters3 {
+    margin-top: 15px;
+    order: 2;
+    flex: 0 0 40%;
+    margin-left: 0 !important;
+    
+  }
+
+  .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused
+    .MuiOutlinedInput-notchedOutline,
+  .css-a35w37-MuiFormControl-root-MuiTextField-root fieldset {
+    border: 0 !important;
+    border-bottom: 2px solid rgba(43, 45, 52, 0.75) !important;
+    border-radius: 0 !important;
+    background: none !important;
+  }
+
+  
+  @media (max-width: 740px) {
+    .filters {
+      padding-right: $header-padding-left-right-mobile;
+      padding-left: $header-padding-left-right-mobile;
+    }
+  
+    .filters3 {
+      margin-top: 15px;
+      order: 2;
+      flex: 0 0 40%;
+      margin-left: 0 !important;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start !important;
+      justify-content: flex-end;
+  
+      p {
+        margin-bottom: 0.5rem;
+      }
+  
+      span {
+        top: 1rem;
+      }
+    }
+  }
+  @media (max-width: 550px) {
+    .filters3 {
+      margin-top: 15px;
+      order: 2;
+      flex: 0 0 auto;
+    }
+  
+    .filters1 {
+      order: 3;
+      flex: 0 0 auto;
+      margin-left: 0 !important;
+    }
+  }
+}

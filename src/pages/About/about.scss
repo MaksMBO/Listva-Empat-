@@ -1,0 +1,30 @@
+// .landing-container,
+.catalog-id-container {
+  overflow: hidden;
+  &__main {
+    height: 0vh;
+  }
+
+  &__body {
+    position: relative;
+  }
+
+  &__blurry-background {
+    position: absolute;
+    top: -100%;
+    left: -210%;
+    width: 1000%;
+    height: 1000%;
+    z-index: -1;
+    background: linear-gradient(
+        243.16deg,
+        rgba(189, 79, 191, 0.032) 0.41%,
+        rgba(63, 44, 63, 0.0305) 100%
+      ),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)),
+      url("/assets/images/about/about-background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+}

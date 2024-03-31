@@ -1,0 +1,132 @@
+$header-padding-right-left: 8.54%;
+$header-padding-bottom-top: 5rem;
+
+$header-padding-left-right-mobile: 5.33%;
+
+.catalog-main {
+  padding: $header-padding-bottom-top $header-padding-right-left;
+  &__subtitle-block {
+    display: flex;
+    gap: 0.9375rem;
+  }
+
+  &__line-subtitle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.125rem;
+  }
+  &__line-subtitle {
+    height: 0.1875rem;
+    background-color: #e5e5e5;
+    width: 100%;
+  }
+  &__content {
+    height: 50vh;
+  }
+  &__title {
+    font-weight: 500;
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    margin-top: calc(0.8375rem);
+    margin-bottom: 1rem;
+    color: #e5e5e5;
+  }
+  &__subtitle {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 0.9375rem;
+    color: #e5e5e5;
+  }
+
+  @media (min-width: 450px) {
+    &__title {
+      margin-bottom: 2rem;
+      margin-top: calc(4.8375rem);
+    }
+
+    &__subtitle-block {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-gap: 1.875rem;
+    }
+
+    &__line-subtitle-container {
+      grid-column: span 2;
+    }
+    &__subtitle {
+      grid-column: span 10;
+      font-weight: 500;
+      font-size: 1rem;
+      line-height: 1.25rem;
+    }
+  }
+
+  @media (min-width: 780px) {
+    &__content {
+      height: 60vh;
+    }
+    &__title {
+      margin-top: calc(7.9875rem - ($header-padding-bottom-top) / 1.5);
+      font-weight: 500;
+      font-size: 3.625rem;
+      line-height: 4.4375rem;
+      color: #e5e5e5;
+    }
+
+    &__subtitle-block {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-gap: 1.875rem;
+    }
+    &__line-subtitle-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      grid-column: 4 / span 2;
+      width: 100%;
+    }
+    &__subtitle {
+      font-weight: 500;
+      font-size: 1.125rem;
+      grid-column: span 7 / -1;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    &__title {
+      margin-top: calc(7.9875rem - ($header-padding-bottom-top) / 2);
+      font-weight: 500;
+      font-size: 3.625rem;
+      margin-bottom: 2rem;
+    }
+
+    &__subtitle-block {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-gap: 1.875rem;
+    }
+    &__line-subtitle-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      grid-column: 8 / span 1;
+      width: 100%;
+    }
+    &__subtitle {
+      font-weight: 500;
+      font-size: 1.125rem;
+      grid-column: span 4 / -1;
+    }
+
+    &__content {
+      height: 65vh;
+    }
+  }
+
+  @media (min-width: 1300px) {
+    &__title {
+      margin-top: 7.9875rem;
+    }
+  }
+}
