@@ -302,8 +302,13 @@ export default function CatalogPage() {
             ".MuiPagination-ul": {
               justifyContent: "center",
             },
-            "@media (max-width: 330px)": {
-              ".css-wjh20t-MuiPagination-ul li": {
+            "@media (max-width: 360px)": {
+              ".MuiPagination-ul li": {
+                width: "30px",
+              },
+            },
+            "@media (max-width: 290px)": {
+              ".MuiPagination-ul li": {
                 width: "28px",
               },
             },

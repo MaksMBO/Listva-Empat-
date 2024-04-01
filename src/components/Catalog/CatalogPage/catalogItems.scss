@@ -19,7 +19,6 @@ $header-padding-left-right-mobile: 5.33%;
   margin-top: 2rem;
 }
 
-
 @media (max-width: 880px) {
   .filters {
     display: flex;
@@ -46,7 +45,6 @@ $header-padding-left-right-mobile: 5.33%;
     order: 2;
     flex: 0 0 40%;
     margin-left: 0 !important;
-    
   }
 
   .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused
@@ -58,27 +56,31 @@ $header-padding-left-right-mobile: 5.33%;
     background: none !important;
   }
 
-  
   @media (max-width: 740px) {
     .filters {
       padding-right: $header-padding-left-right-mobile;
       padding-left: $header-padding-left-right-mobile;
     }
-  
+
     .filters3 {
-      margin-top: 15px;
+      // margin-top: 15px;
+      height: 100%;
       order: 2;
       flex: 0 0 40%;
-      margin-left: 0 !important;
+      margin: 0;
       display: flex;
       flex-direction: column;
       align-items: flex-start !important;
       justify-content: flex-end;
-  
+
       p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
         margin-bottom: 0.5rem;
       }
-  
+
       span {
         top: 1rem;
       }
@@ -88,9 +90,9 @@ $header-padding-left-right-mobile: 5.33%;
     .filters3 {
       margin-top: 15px;
       order: 2;
-      flex: 0 0 auto;
+      flex: 0 0 100%;margin-bottom: 3rem;
     }
-  
+
     .filters1 {
       order: 3;
       flex: 0 0 auto;
