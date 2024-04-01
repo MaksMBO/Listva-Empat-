@@ -22,6 +22,14 @@ export default function AboutSlider(props) {
 
   return (
     <Carousel
+      sx={{
+        ".css-1abc02a .css-1g04gm2-MuiButtonBase-root-MuiIconButton-root": {
+          top: "calc(100% - 30px - 17px) !important",
+        },
+        ".css-hn784z .css-1g04gm2-MuiButtonBase-root-MuiIconButton-root ": {
+          top: "calc(100% - 30px - 17px) !important",
+        },
+      }}
       indicators={limitedItems.length > 1}
       autoPlay={false}
       navButtonsAlwaysVisible
