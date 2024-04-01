@@ -35,11 +35,29 @@ export default function AboutSlider(props) {
             height: "1.0625rem",
           },
 
+          "&.css-10twnsm circle": {
+            color: "#e5e5e5",
+          },
+
+          "&.css-10twnsm svg": {
+            width: "1.0625rem",
+            height: "1.0625rem",
+          },
+
           "&.css-bbreus-MuiButtonBase-root-MuiIconButton-root circle": {
             color: "rgba(229, 229, 229, 0.5)",
           },
 
           "&.css-bbreus-MuiButtonBase-root-MuiIconButton-root svg": {
+            width: "0.75rem",
+            height: "0.75rem",
+          },
+
+          "&.css-mq3aek circle": {
+            color: "rgba(229, 229, 229, 0.5)",
+          },
+
+          "&.css-mq3aek svg": {
             width: "0.75rem",
             height: "0.75rem",
           },
