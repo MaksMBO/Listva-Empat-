@@ -1,13 +1,15 @@
-.MuiList-root,
-.MuiButtonBase-root {
-  background: rgba(43, 45, 52, 0.9);
-  border-radius: 0.625rem;
-}
-.MuiButtonBase-root {
-  background: rgba(43, 45, 52, 0) !important;
-  width: 11.875rem;
-}
+.MuiPopover-root {
+  .MuiList-root,
+  .MuiButtonBase-root {
+    background: rgba(43, 45, 52, 0.9);
+    border-radius: 0.625rem;
+  }
+  .MuiButtonBase-root {
+    background: rgba(43, 45, 52, 0) !important;
+    width: 11.875rem;
+  }
 
-.MuiPaper-root {
-  background: rgba(43, 45, 52, 0) !important;
+  .MuiPaper-root {
+    background: rgba(43, 45, 52, 0) !important;
+  }
 }
