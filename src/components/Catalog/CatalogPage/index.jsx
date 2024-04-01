@@ -299,7 +299,7 @@ export default function CatalogPage() {
             }
           }}
           sx={{
-            ".css-wjh20t-MuiPagination-ul": {
+            ".MuiPagination-ul": {
               justifyContent: "center",
             },
             "@media (max-width: 330px)": {
