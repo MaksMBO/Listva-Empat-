@@ -1,9 +1,13 @@
-.css-6hp17o-MuiList-root-MuiMenu-list,
-.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+.MuiList-root,
+.MuiButtonBase-root {
   background: rgba(43, 45, 52, 0.9);
   border-radius: 0.625rem;
 }
-.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+.MuiButtonBase-root {
   background: rgba(43, 45, 52, 0) !important;
   width: 11.875rem;
+}
+
+.MuiPaper-root {
+  background: rgba(43, 45, 52, 0) !important;
 }
