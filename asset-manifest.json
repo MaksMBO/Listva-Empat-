@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Listva-Empat-/static/css/main.b0092cf3.css",
-    "main.js": "/Listva-Empat-/static/js/main.050c0169.js",
+    "main.js": "/Listva-Empat-/static/js/main.f13d0950.js",
     "static/css/543.13b5439a.chunk.css": "/Listva-Empat-/static/css/543.13b5439a.chunk.css",
     "static/js/543.15a1f6d5.chunk.js": "/Listva-Empat-/static/js/543.15a1f6d5.chunk.js",
     "static/css/645.e8dd7dc6.chunk.css": "/Listva-Empat-/static/css/645.e8dd7dc6.chunk.css",
     "static/js/645.3af887a0.chunk.js": "/Listva-Empat-/static/js/645.3af887a0.chunk.js",
-    "static/css/396.8b6b10f1.chunk.css": "/Listva-Empat-/static/css/396.8b6b10f1.chunk.css",
-    "static/js/396.850b230a.chunk.js": "/Listva-Empat-/static/js/396.850b230a.chunk.js",
+    "static/css/396.2c879bad.chunk.css": "/Listva-Empat-/static/css/396.2c879bad.chunk.css",
+    "static/js/396.0d348ba4.chunk.js": "/Listva-Empat-/static/js/396.0d348ba4.chunk.js",
     "static/js/686.a0e391a5.chunk.js": "/Listva-Empat-/static/js/686.a0e391a5.chunk.js",
     "static/js/170.0d9bbb86.chunk.js": "/Listva-Empat-/static/js/170.0d9bbb86.chunk.js",
     "static/media/catalog-background.webp": "/Listva-Empat-/static/media/catalog-background.aefd0d19fd9dc917ff8c.webp",
@@ -44,18 +44,18 @@
     "static/media/close.svg": "/Listva-Empat-/static/media/close.84eccaebec0f6cf02d8478bedde56268.svg",
     "static/media/minus.svg": "/Listva-Empat-/static/media/minus.989359d948b4eb846f4f51a487227df9.svg",
     "main.b0092cf3.css.map": "/Listva-Empat-/static/css/main.b0092cf3.css.map",
-    "main.050c0169.js.map": "/Listva-Empat-/static/js/main.050c0169.js.map",
+    "main.f13d0950.js.map": "/Listva-Empat-/static/js/main.f13d0950.js.map",
     "543.13b5439a.chunk.css.map": "/Listva-Empat-/static/css/543.13b5439a.chunk.css.map",
     "543.15a1f6d5.chunk.js.map": "/Listva-Empat-/static/js/543.15a1f6d5.chunk.js.map",
     "645.e8dd7dc6.chunk.css.map": "/Listva-Empat-/static/css/645.e8dd7dc6.chunk.css.map",
     "645.3af887a0.chunk.js.map": "/Listva-Empat-/static/js/645.3af887a0.chunk.js.map",
-    "396.8b6b10f1.chunk.css.map": "/Listva-Empat-/static/css/396.8b6b10f1.chunk.css.map",
-    "396.850b230a.chunk.js.map": "/Listva-Empat-/static/js/396.850b230a.chunk.js.map",
+    "396.2c879bad.chunk.css.map": "/Listva-Empat-/static/css/396.2c879bad.chunk.css.map",
+    "396.0d348ba4.chunk.js.map": "/Listva-Empat-/static/js/396.0d348ba4.chunk.js.map",
     "686.a0e391a5.chunk.js.map": "/Listva-Empat-/static/js/686.a0e391a5.chunk.js.map",
     "170.0d9bbb86.chunk.js.map": "/Listva-Empat-/static/js/170.0d9bbb86.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b0092cf3.css",
-    "static/js/main.050c0169.js"
+    "static/js/main.f13d0950.js"
   ]
 }
