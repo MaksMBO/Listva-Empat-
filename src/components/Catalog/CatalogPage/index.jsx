@@ -112,7 +112,7 @@ export default function CatalogPage() {
 
     if (page < 1 || page > pageQty) {
       setPage(1);
-      navigate("/catalog?page=1");
+      navigate("/Listva-Empat-/catalog?page=1");
     }
   }, [page, navigate, sort, priceRange, search, pageQty, data]);
 
@@ -328,7 +328,7 @@ export default function CatalogPage() {
                 },
               }}
               component={NavLink}
-              to={`/catalog?page=${item.page}`}
+              to={`/Listva-Empat-/catalog?page=${item.page}`}
               {...item}
             />
           )}

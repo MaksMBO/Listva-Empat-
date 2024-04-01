@@ -52,7 +52,7 @@ $header-padding-bottom-top-mobile: 4rem;
 
   &__submit-button {
     font-weight: 400;
-    font-size: 1.125rem;
+    font-size: 1.125rem !important;
     color: #ffffff;
     width: 100%;
     display: flex;
@@ -80,7 +80,7 @@ $header-padding-bottom-top-mobile: 4rem;
     }
 
     &__submit-button {
-      font-size: 1.375rem;
+      font-size: 1.375rem !important;
     }
   }
   @media (min-width: 741px) {
@@ -101,7 +101,7 @@ $header-padding-bottom-top-mobile: 4rem;
     }
 
     &__submit-button {
-      font-size: 1.25rem;
+      font-size: 1.25rem !important;
     }
 
     &__input {
@@ -128,7 +128,7 @@ $header-padding-bottom-top-mobile: 4rem;
     }
 
     &__submit-button {
-      font-size: 1.375rem;
+      font-size: 1.375rem !important;
     }
 
     &__input {

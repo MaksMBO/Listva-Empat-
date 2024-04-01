@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 
 export function MediaCard({ id, img, title, price, currency }) {
-  const catalogUrl = `/catalog/${id}/`;
+  const catalogUrl = `/Listva-Empat-/catalog/${id}/`;
 
   const dispatch = useDispatch();
   const addInBasket = () => {

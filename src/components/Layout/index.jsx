@@ -23,21 +23,21 @@ export default function Layout() {
   const advantagesRef = useRef(null);
 
   const pathStyles = {
-    "/": "landing-container",
-    "/catalog/:id/": "catalog-id-container",
-    "/catalog/": "catalog-main-container",
+    "/Listva-Empat-/": "landing-container",
+    "/Listva-Empat-/catalog/:id/": "catalog-id-container",
+    "/Listva-Empat-/catalog/": "catalog-main-container",
   };
   const { id } = useParams();
   const location = useLocation();
   let path;
 
   if (id) {
-    path = `/catalog/:id/`;
+    path = `/Listva-Empat-/catalog/:id/`;
   } else if (
-    location.pathname.startsWith("/catalog") &&
+    location.pathname.startsWith("/Listva-Empat-/catalog") &&
     location.search.startsWith("?page=")
   ) {
-    path = "/catalog/";
+    path = "/Listva-Empat-/catalog/";
   } else {
     path = location.pathname;
   }
